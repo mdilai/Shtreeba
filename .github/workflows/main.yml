@@ -12,9 +12,9 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: windows-latest
-    
     env:
       MSBUILD_PATH: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\
+      SHA8: ${GITHUB_SHA::8}  
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -30,10 +30,10 @@ jobs:
     - name: Prepare
       shell: powershell
       run: 'mkdir Shtreeba; cp .\Release\Shtreeba.exe .\Shtreeba\; cp .\Release\Shtreeba.dll .\Shtreeba\'
-      
+       
     # Upload artifacts
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with: 
-        name: ${{ github.sha }}
+        name: ${{ SHA8 }}
         path:  .\Shtreeba
