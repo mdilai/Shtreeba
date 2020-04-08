@@ -14,7 +14,6 @@ jobs:
     runs-on: windows-latest
     env:
       MSBUILD_PATH: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\
-      SHA8: ${GITHUB_SHA::8}  
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
