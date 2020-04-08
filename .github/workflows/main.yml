@@ -25,3 +25,7 @@ jobs:
     - name: Build
       shell: cmd
       run: '"%MSBUILD_PATH%\MSBuild.exe" Shtreeba.sln /p:Platform=x86 /p:Configuration=Release'
+      
+      # Upload artifacts
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1.0.0
