@@ -35,6 +35,5 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with: 
-        name: Shtreeba-${GITHUB_SHA::7}
+        name: ${{GITHUB_SHA}}}
         path:  .\Shtreeba
-        shell: bash 
