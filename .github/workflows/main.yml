@@ -24,7 +24,7 @@ jobs:
     # Build command
     - name: Build
       shell: cmd
-      run: '"%MSBUILD_PATH%\MSBuild.exe" Shtreeba.sln /p:Platform=x86 /p:Configuration=Release'
+      run: '"%MSBUILD_PATH%\MSBuild.exe" Shtreeba.sln /p:Platform=x86 /p:Configuration=Release -m'
       
     # Prepare
     - name: Prepare
@@ -35,5 +35,6 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with: 
-        name: Shtreeba-%GITHUB_SHA%
+        name: Shtreeba-${GITHUB_SHA::7}
         path:  .\Shtreeba
+        shell: bash 
