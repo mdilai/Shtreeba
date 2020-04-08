@@ -35,5 +35,5 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with: 
-        name: ${{ SHA8 }}
+        name: $SHA8
         path:  .\Shtreeba
