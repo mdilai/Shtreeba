@@ -1,6 +1,6 @@
 # Shtreeba [![C++](https://img.shields.io/badge/language-C%2B%2B-%23f34b7d.svg?style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B) [![Windows](https://img.shields.io/badge/platform-Windows-0078d7.svg)](https://en.wikipedia.org/wiki/Microsoft_Windows) [![x86](https://img.shields.io/badge/arch-x86-red.svg)](https://en.wikipedia.org/wiki/X86) [![License](https://img.shields.io/github/license/mdilai/Shtreeba.svg)](LICENSE) ![Windows](https://github.com/mdilai/Shtreeba/workflows/Windows/badge.svg?branch=master&event=push)
 
-VAC-proof 32bit DLL injector written in C++, using memory mapping and thread hijacking technics
+VAC-proof 32bit DLL injector written in C++, using memory mapping and thread hijacking techniques
 
 ## Features:
 * **Library** - full-featured VAC-proof and VirusTotal-proof library for injecting third-party DLL's into 32-bit applications.
