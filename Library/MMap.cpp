@@ -16,7 +16,7 @@ static const inline bool isCorrectTargetArchitecture(HANDLE process)
 }
 
 MMap::MMap(ProcessInfo processInfo, std::vector<std::byte> _file) :
-    process{ OpenProcess(PROCESS_VM_READ | PROCESS_VM_WRITE | PROCESS_VM_OPERATION, FALSE, processInfo.pid) },
+    process{ OpenProcess(PROCESS_VM_READ | PROCESS_VM_WRITE | PROCESS_VM_OPERATION | PROCESS_QUERY_INFORMATION, FALSE, processInfo.pid) },
     thread{ OpenThread(THREAD_SET_CONTEXT | THREAD_GET_CONTEXT | THREAD_SUSPEND_RESUME, FALSE, processInfo.tid) },
     file{ _file }, srcData{ file.data() }
 {
