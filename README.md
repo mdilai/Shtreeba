@@ -1,4 +1,4 @@
-# Shtreeba [![C++](https://img.shields.io/badge/language-C%2B%2B-%23f34b7d.svg?style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B) [![Windows](https://img.shields.io/badge/platform-Windows-0078d7.svg)](https://en.wikipedia.org/wiki/Microsoft_Windows) [![x86](https://img.shields.io/badge/arch-x86-red.svg)](https://en.wikipedia.org/wiki/X86) [![License](https://img.shields.io/github/license/mdilai/Shtreeba.svg)](LICENSE) ![Windows](https://github.com/mdilai/Shtreeba/workflows/Windows/badge.svg?branch=master&event=push)
+# Shtreeba [![C++](https://img.shields.io/badge/language-C%2B%2B-%23f34b7d.svg?style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B) [![Windows](https://img.shields.io/badge/platform-Windows-0078d7.svg)](https://en.wikipedia.org/wiki/Microsoft_Windows) [![x86](https://img.shields.io/badge/arch-x86-red.svg)](https://en.wikipedia.org/wiki/X86) [![License](https://img.shields.io/github/license/mdilai/Shtreeba.svg)](COPYING.LESSER) ![Windows](https://github.com/mdilai/Shtreeba/workflows/Windows/badge.svg?branch=master&event=push)
 
 VAC-proof 32bit DLL injector written in C++, using memory mapping and thread hijacking techniques
 
@@ -44,7 +44,7 @@ CloseDelay=3000
 
 > Copyright (c) 2019-2020 Maksym Dilai
 
-This project is licensed under the [GPL-3.0 License](https://opensource.org/licenses/GPL-3.0) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [LGPL-3.0 License](https://opensource.org/licenses/LGPL-3.0) - see the [COPYING.LESSER](COPYING.LESSER) file for details.
 
 ## See also
 - [JweegaCSGO](https://github.com/mdilai/JweegaCSGO) - free and open source cheat for CS:GO based on [Osiris](https://github.com/danielkrupinski/Osiris)
