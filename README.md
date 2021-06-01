@@ -12,6 +12,9 @@ VAC-proof 32bit DLL injector written in C++, using memory mapping and thread hij
 
 Written using **Microsoft Visual Studio 2019**, work with older versions not guaranteed.
 
+### Prebuilt release
+Download [latest release](https://github.com/mdilai/Shtreeba/releases) and unpack to any desired location.
+
 ### Compiling from source
 
 Open **Shtreeba.sln** in Microsoft Visual Studio 2019. 
@@ -42,7 +45,7 @@ CloseDelay=3000
 
 ## License
 
-> Copyright (c) 2019-2020 Maksym Dilai
+> Copyright (c) 2019-2021 Maksym Dilai
 
 This project is licensed under the [LGPL-3.0 License](https://opensource.org/licenses/LGPL-3.0) - see the [COPYING.LESSER](COPYING.LESSER) file for details.
 
